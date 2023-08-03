@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+   
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      
+      <title>Contacto</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      
+      <link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap.min.css')}}">
+      <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+      <link rel="stylesheet" href="{{url_for('static',filename='css/responsive.css')}}">
+      <link rel="shortcut icon" href="{{url_for('static',filename='images/logo.png')}}" type="image/x-icon">
+      
+      <link rel="icon" href="{{url_for('static',filename='images/fevicon.png')}}" type="image/gif" />
+      
+      <link rel="stylesheet" href="{{url_for('static',filename='css/jquery.mCustomScrollbar.min.css')}}">
+      
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+       
+      <link rel="stylesheet" href="{{url_for('static',filename='css/owl.carousel.min.css')}}">
+      <link rel="stylesheet" href="{{url_for('static',filename='css/owl.theme.default.min.css')}}">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+   </head>
+   <body>
+      
+      <div class="header_section">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="logo"><a href="/"><img src="{{url_for('static',filename='images/logo.png')}}"></a></div>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                     <a class="nav-link" href="/">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="/servicios">Servicios</a>
+                  </li>
+                  <li class="nav-item active">
+                     <a class="nav-link" href="/contactos">Contactanos</a>
+                  </li>
+                  
+               </ul>
+            </div>
+         </nav>
+      </div>
+      <div class="contact_section layout_padding margin_90">
+         <div class="container">
+            <h1 class="contact_taital">¿Que hacemos?</h1>
+            <div class="news_section_2">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="icon_main">
+                        <div class="icon_7"><img src="{{url_for('static',filename='images/icon-7.png')}}"></div>
+                        <h4 class="diabetes_text">Consultas dentales </h4>
+                     </div>
+                     <div class="icon_main">
+                        <div class="icon_7"><img src="{{url_for('static',filename='images/icon-5.png')}}"></div>
+                        <h4 class="diabetes_text">Rehabilitacines</h4>
+                     </div>
+                     <div class="icon_main">
+                        <div class="icon_7"><img src="{{url_for('static',filename='images/icon-6.png')}}"></div>
+                        <h4 class="diabetes_text">Protesis</h4>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="contact_box">
+                        
+                        <form action="/citahecha" method="post">
+                        <h1 class="book_text">Reservar cita</h1>
+                        <input type="text" class="Email_text" placeholder="Nombre" name="nombre">
+                        <input type="email" class="Email_text" placeholder="Correo" name="correo">
+                        <textarea class="massage-bt" placeholder="Mensaje" rows="5" id="comment" name="mensaje"></textarea>
+                        <button class="send_bt">Enviar</button>
+                     </form>
+                     
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="footer_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-3 col-sm-6">
+                  <div class="footer_logo"><a href="/"><img src="{{url_for('static',filename='images/logo.png')}}"></a></div>
+                  <h1 class="adderss_text">Contactanos</h1>
+                  <div class="map_icon"><img src="{{url_for('static',filename='images/map-icon.png')}}"><span class="paddlin_left_0">Las torres LZC</span></div>
+                  <div class="map_icon"><img src="{{url_for('static',filename='images/call-icon.png')}}"><span class="paddlin_left_0">7531470390</span></div>
+                  <div class="map_icon"><img src="{{url_for('static',filename='images/mail-icon.png')}}"><span class="paddlin_left_0">danny_barrera88@hotmail.com</span></div>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <h1 class="adderss_text">Dr.Luis Daniel</h1>
+                  <div class="hiphop_text_1">Egresado de la facultad de Odontologia de la Universidad Michoacana de San Nicolas de Hidalgo</div>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <h1 class="adderss_text">Especialidades</h1>
+                  <div class="Useful_text">Cirujias, Rehabilitacines, Protesis remobible y fijas, endodoncia, odontologia  preventiva y orodoncia</div>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <h1 class="adderss_text">Redes</h1>
+                  
+                  <div class="social_icon">
+                     <ul>
+                        <li><a href="#"><img src="{{url_for('static',filename='images/fb-icon.png')}}"></a></li>
+                        <li><a href="#"><img src="{{url_for('static',filename='images/twitter-icon.png')}}"></a></li>
+                        <li><a href="#"><img src="{{url_for('static',filename='images/linkedin-icon.png')}}"></a></li>
+                        <li><a href="#"><img src="{{url_for('static',filename='images/instagram-icon.png')}}"></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      
+      <div class="copyright_section">
+         <div class="container">
+            <p class="copyright_text">2023 Por que me lo ordeno <a href="https://html.design"> el señor maldad</a></p>
+         </div>
+      </div>
+      
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+       
+      <script src="js/owl.carousel.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+   </body>
+</html>

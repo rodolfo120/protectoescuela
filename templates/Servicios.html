@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+     
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      
+      <title>Servicios</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+     
+      <link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap.min.css')}}">
+      <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+      <link rel="stylesheet" href="{{url_for('static',filename='css/responsive.css')}}">
+      <link rel="shortcut icon" href="{{url_for('static',filename='images/logo.png')}}" type="image/x-icon">
+      
+      <link rel="icon" href="{{url_for('static',filename='images/fevicon.png')}}" type="image/gif" />
+      
+      <link rel="stylesheet" href="{{url_for('static',filename='css/jquery.mCustomScrollbar.min.css')}}">
+      
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      
+      <link rel="stylesheet" href="{{url_for('static',filename='css/owl.carousel.min.css')}}">
+      <link rel="stylesheet" href="{{url_for('static',filename='css/owl.theme.default.min.css')}}">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+   </head>
+   <body>
+      
+      <div class="header_section">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="logo"><a href="file:///C:/Users/Vital/OneDrive/Escritorio/html/Inicio.html"><img src="{{url_for('static',filename='images/logo.png')}}"></a></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                     <a class="nav-link" href="/">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link " href="/contacto">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link active" href="/servicios">Servicios</a>
+                  </li>
+                  
+               </ul>
+            </div>
+         </nav>
+      </div>
+      
+      <div class="client_section layout_padding">
+         <div id="my_slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container">
+                     <h1 class="client_taital">Reabilitaciones</h1>
+                     
+                     <div class="client_section_2">
+                        <div class="client_left">
+                           <div><img src="{{url_for('static',filename='images/client-img.png')}}" class="client_img"></div>
+                        </div>
+                        <div class="client_right">
+                           <h3 class="distracted_text">Tipos</h3>
+                           <p class="lorem_text">Corona e-max press, metalica, metal/porcelana, Signum, Temporal(resina bis acrilico), Zirconia, Incrustacion Signum, metalica y e-max, Recina inllectada, Obtulacion con ionomero de vidrio,Obturacion con resina </e-max></p>
+                           <div class="quote_icon"><img src="{{url_for('static',filename='images/quote-icon.png')}}"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <h1 class="client_taital">Cirujia</h1>
+                     <div class="client_section_2">
+                        <div class="client_left">
+                           <div><img src="{{url_for('static',filename='images/client-img.png')}}" class="client_img"></div>
+                        </div>
+                        <div class="client_right">
+                           <h3 class="distracted_text">Tipos</h3>
+                           <p class="lorem_text">Alargamiento de corona, cirujia canino retenido, Tercer molar A/B, Guinguectomica, Extraccion simple y para niños</p>
+                           <div class="quote_icon"><img src="{{url_for('static',filename='images/quote-icon.png')}}"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <h1 class="client_taital">Protesis Remobible</h1>
+                     <div class="client_section_2">
+                        <div class="client_left">
+                           <div><img src="{{url_for('static',filename='images/client-img.png')}}" class="client_img"></div>
+                        </div>
+                        <div class="client_right">
+                           <h3 class="distracted_text">Tipos</h3>
+                           <p class="lorem_text">Protesis parcial Removible Hibrida superior o inferior, Protesis Parcial Remobible Hibrida superior o inferior bilateral</p>
+                           <div class="quote_icon"><img src="{{url_for('static',filename='images/quote-icon.png')}}"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <h1 class="client_taital">Ordodoncia</h1>
+                     <div class="client_section_2">
+                        <div class="client_left">
+                           <div><img src="{{url_for('static',filename='images/client-img.png')}}" class="client_img"></div>
+                        </div>
+                        <div class="client_right">
+                           <h3 class="distracted_text">Tipos</h3>
+                           <p class="lorem_text">Bracket Convencional, Bracket Autoligado, Ortopedia funcional</p>
+                           <div class="quote_icon"><img src="{{url_for('static',filename='images/quote-icon.png')}}"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <h1 class="client_taital">Protesis Fija</h1>
+                     <div class="client_section_2">
+                        <div class="client_left">
+                           <div><img src="{{url_for('static',filename='images/client-img.png')}}" class="client_img"></div>
+                        </div>
+                        <div class="client_right">
+                           <h3 class="distracted_text">Tipos</h3>
+                           <p class="lorem_text">Puente metal porcelana, Puente Zirconia</p>
+                           <div class="quote_icon"><img src="{{url_for('static',filename='images/quote-icon.png')}}"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <h1 class="client_taital">Endodoncia</h1>
+                     
+                     <div class="client_section_2">
+                        <div class="client_left">
+                           <div><img src="{{url_for('static',filename='images/client-img.png')}}" class="client_img"></div>
+                        </div>
+                        <div class="client_right">
+                           <h3 class="distracted_text">Tipos</h3>
+                           <p class="lorem_text">Endodoncia Central, lateral, caninos, Endodoncia Morales, Polpotomia(niños), Endoposte(fibra de vidrio)</p>
+                           <div class="quote_icon"><img src="{{url_for('static',filename='images/quote-icon.png')}}"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <h1 class="client_taital">Odontologia preventiva</h1>
+                     <div class="client_section_2">
+                        <div class="client_left">
+                           <div><img src="{{url_for('static',filename='images/client-img.png')}}" class="client_img"></div>
+                        </div>
+                        <div class="client_right">
+                           <h3 class="distracted_text">Tipos</h3>
+                           <p class="lorem_text">Limpieza, Limpieza para niños con aplicacion de Barniz de flour, Selladores de cocetas y fisuras, Radio graficas(Bitewing y pariapical)</p>
+                           <div class="quote_icon"><img src="{{url_for('static',filename='images/quote-icon.png')}}"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <h1 class="client_taital">Esteticos</h1>
+                     <div class="client_section_2">
+                        <div class="client_left">
+                           <div><img src="{{url_for('static',filename='images/client-img.png')}}" class="client_img"></div>
+                        </div>
+                        <div class="client_right">
+                           <h3 class="distracted_text">Tipos</h3>
+                           <p class="lorem_text">Blanqueamiento Phillips zoom(casa), Bonding(remodelacion estetica con resina), Carilla</p>
+                           <div class="quote_icon"><img src="{{url_for('static',filename='images/quote-icon.png')}}"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
+            <i class="fa fa-long-arrow-left" style="font-size:24px; padding-top: 4px;"></i>
+            </a>
+            <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
+            <i class="fa fa-long-arrow-right" style="font-size:24px; padding-top: 4px;"></i>
+            </a>
+         </div>
+      </div>
+      
+      <div class="footer_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-3 col-sm-6">
+                  <div class="footer_logo"><a href="index.html"><img src="images/footer-logo.png"></a></div>
+                  <h1 class="adderss_text">Contact Us</h1>
+                  <div class="map_icon"><img src="images/map-icon.png"><span class="paddlin_left_0">Donde estamos ubicacos</span></div>
+                  <div class="map_icon"><img src="images/call-icon.png"><span class="paddlin_left_0">7531504845</span></div>
+                  <div class="map_icon"><img src="images/mail-icon.png"><span class="paddlin_left_0">danny_barrera88@hotmail.com</span></div>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <h1 class="adderss_text">Dr.Luis Daniel</h1>
+                  <div class="hiphop_text_1">Egresado de la facultad de Odontologia de la Universidad Michoacana de San Nicolas de Hidalgo con diplomado en endodoncia, diploado en diseño de sonrisa</div>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <h1 class="adderss_text">Especialidades</h1>
+                  <div class="Useful_text">Cirujias, Rehabilitacines, Protesis remobible y fijas, endodoncia, odontologia  preventiva y orodoncia</div>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <h1 class="adderss_text">Redes</h1>
+                  <div class="subscribe_bt"><a href="#">Subscribe</a></div>
+                  <div class="social_icon">
+                     <ul>
+                        <li><a href="#"><img src="images/fb-icon.png"></a></li>
+                        <li><a href="#"><img src="images/twitter-icon.png"></a></li>
+                        <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
+                        <li><a href="#"><img src="images/instagram-icon.png"></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      
+      <div class="copyright_section">
+         <div class="container">
+            <p class="copyright_text">2023 Por que me lo ordeno <a href="https://html.design">el señor maldad</a></p>
+         </div>
+      </div>
+      
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      
+      <script src="js/owl.carousel.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+   </body>
+</html>

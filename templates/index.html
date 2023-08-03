@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>SMILE DESIGN</title>
+   <link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap.min.css')}}">
+   <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+   <link rel="stylesheet" href="{{url_for('static',filename='css/responsive.css')}}">
+   <link rel="shortcut icon" href="{{url_for('static',filename='images/logo.png')}}" type="image/x-icon">
+  
+</head>
+
+<body>
+   <div class="header_section">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <div class="logo"><a><img src="{{url_for('static',filename='images/logo.png')}}"></a></div>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">  
+               <li class="nav-item active">
+                  <a class="nav-link" href="/">Inicio</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="/contacto">Contacto</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="/servicios">Servicios</a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      
+      <div id="main_slider">
+               <div class="banner_section">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <h1 class="banner_taital">Health <br><span style="color: #151515;">Desing</span></h1>
+                           <p class="banner_text">El mejor consultorio Dentista de Lazaro Cardenas por que toda persona brillante merece una sonrisa brillante</p>
+                        </div>                       
+                           <div class="image_1"><img src="{{url_for('static',filename='images/imagen.png')}}"></div>
+                     </div>
+                  </div>
+               </div>
+      </div>
+   </div>
+   
+   <div class="health_section layout_padding">
+      <div class="container">
+         <h1 class="health_taital">Consiente a tu sonrisa y no temas sonreir</h1>
+         <p class="health_text">Health Design posee diversos servicios para ti a bajo costo y alta calidad, consiente tu sonrisa ya</p>
+         <div class="health_section layout_padding">
+            <div class="row">
+               <div class="col-sm-7">
+                  <div class="image_main">
+                     <div class="main">
+                        <img src="{{url_for('static',filename='images/img-2.png')}}"  class="image" style="width:100%">
+                     </div>
+                  </div>
+               </div>
+               <div class="col-sm-5">
+                  <div class="image_main_1">
+                     <div class="main">
+                        <img src="{{url_for('static',filename='images/img-3.png')}}" alt="Avatar" class="image" style="width:100%">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="getquote_bt_1"><a href="Contacto.html">Saber Mas <span><img src="{{url_for('static',filename='images/right-arrow.png')}}"></span></a></div>
+         </div>
+      </div>
+   </div>
+
+   <div class="news_section layout_padding">
+      <div class="container">
+         <h1 class="health_taital">¿Por que escoger Smile Design?</h1>
+         <p class="health_text">Smile Design provee con los mejores servicios y tecnologia de punta</p>
+         <div class="news_section_2 layout_padding">
+            <div class="row">
+               <div class="col-lg-4 col-sm-6">
+                  <div class="box_main">
+                     <div class="icon_1"><img src="{{url_for('static',filename='images/icon-2.png')}}"></div>
+                     <h4 class="daily_text">Expertos Capacitados</h4>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-sm-6">
+                  <div class="box_main">
+                     <div class="icon_1"><img src="{{url_for('static',filename='images/icon-3.png')}}"></div>
+                     <h4 class="daily_text_1">Horarios flexibles</h4>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-sm-6">
+                  <div class="box_main">
+                     <div class="icon_1"><img src="{{url_for('static',filename='images/icon-4.png')}}"></div>
+                     <h4 class="daily_text_1">LGTB Friendly</h4>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="footer_section layout_padding">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-3 col-sm-6">
+               <h1 class="adderss_text">Contactanos</h1>
+               <div class="map_icon"><img src="{{url_for('static',filename='images/map-icon.png')}}"><span class="paddlin_left_0">Las torres LZC</span></div>
+               <div class="map_icon"><img src="{{url_for('static',filename='images/call-icon.png')}}"><span class="paddlin_left_0">7536656566</span></div>
+               <div class="map_icon"><img src="{{url_for('static',filename='images/mail-icon.png')}}"><span class="paddlin_left_0">danny_barrera88@hotmail.com</span></div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+               <h1 class="adderss_text">Dr. Luis Daniel</h1>
+               <div class="hiphop_text_1">Egresado de la facultad de Odontologia de la Universidad Michoacana de San Nicolas de Hidalgo con diplomado en endodoncia</div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+               <h1 class="adderss_text">Redes</h1>
+               <div class="social_icon">
+                  <ul>
+                     <li><a href="#"><img src="{{url_for('static',filename='images/fb-icon.png')}}"></a></li>
+                     <li><a href="#"><img src="{{url_for('static',filename='images/twitter-icon.png')}}"></a></li>
+                     <li><a href="#"><img src="{{url_for('static',filename='images/linkedin-icon.png')}}"></a></li>
+                     <li><a href="#"><img src="{{url_for('static',filename='images/instagram-icon.png')}}"></a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+               <div class="footer_logo"><a href="/"><img src="{{url_for('static',filename='images/logo.png')}}"></a></div>
+            </div>
+         </div>
+      </div>
+   </div>
+  
+   <script src="{{url_for('static',filename='js/jquery.min.js')}}"></script>
+   <script src="{{url_for('static',filename='js/popper.min.js')}}"></script>
+   <script src="{{url_for('static',filename='js/bootstrap.bundle.min.js')}}"></script>
+   <script src="{{url_for('static',filename='js/jquery-3.0.0.min.js')}}"></script>
+   <script src="{{url_for('static',filename='js/plugin.js')}}"></script>
+   <script src="{{url_for('static',filename='js/jquery.mCustomScrollbar.concat.min.js')}}"></script>
+   <script src="{{url_for('static',filename='js/custom.js')}}"></script>
+   <script src="{{url_for('static',filename='js/owl.carousel.js')}}"></script>
+   <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+</body>
+
+</html>
